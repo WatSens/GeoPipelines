@@ -7,7 +7,6 @@ from IPython.display import HTML, display
 from pystac_client import Client
 
 from odc.stac import configure_rio, stac_load
-pip install rio-cogeo
 
 
 def convert_bounds(bbox, invert_y=False):
